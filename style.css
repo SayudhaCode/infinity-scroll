@@ -37,12 +37,18 @@ h1 {
 
 /*Image Container*/
 .image-container {
-  margin: 10px 30%;
+  margin: 10px 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .image-container img {
   width: 100%;
+  max-width: 300px;
   margin-top: 5px;
+  padding: 1rem;
 }
 
 /*Media Queries: Large Smartphone*/
